@@ -1,5 +1,5 @@
 #if os(Linux)
-import Glibc
+    @_exported import Glibc
 #elseif os(OSX)
-import Darwin
+    @_exported import Darwin
 #endif
