@@ -1,4 +1,4 @@
-SwiftOSLib
+SwiftLibC
 -----------
 [![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
@@ -8,14 +8,14 @@ Import Glibc or Darwin library automatically.
 
 
 #### Usage
-Please add "SwiftOSLib" to Package.swift using Swift Package Manager(SPM).
+Please add "SwiftLibC" to Package.swift using Swift Package Manager(SPM).
 
 ```:Swift
 import PackageDescription
 let package = Package(
     name: "Package Name",
     dependences: [
-    	.Package(url: "https://github.com/shotastage/SwiftOSLib.git", versions: Version(0,0,1)...Version(1,0,0)),
+    	.Package(url: "https://github.com/shotastage/SwiftLibC.git", versions: Version(0,0,1)...Version(1,0,0)),
     ]
 )
 ```
