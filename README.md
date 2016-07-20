@@ -20,6 +20,11 @@ let package = Package(
 )
 ```
 
+You can import LibC like following code.
+```:Swift
+import LibC
+```
+
 and You can use this library only add `import OSLib` to first line of source.
 You need not to write codes like following. 
 
