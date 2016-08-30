@@ -34,8 +34,6 @@ You need not to write codes like following.
 	import Darwin
 #elseif os(Linux)
 	import Glibc
-#else
-	FatalError("This platform is not supported.)
 #endif
 ```
 
