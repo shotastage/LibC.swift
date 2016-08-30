@@ -6,7 +6,7 @@
     @_exported import Glibc
 #elseif os(OSX)
     // Import Darwin on macOS
-    @_exported import Darwin
+    @_exported import Darwin.C
 #endif
 
 
