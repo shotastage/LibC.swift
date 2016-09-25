@@ -1,7 +1,7 @@
-SwiftLibC
+Swift CLibrary
 -----------
 [![Build Status](https://travis-ci.org/shotastage/SwiftLibC.svg?branch=master)](https://travis-ci.org/shotastage/SwiftLibC)
-[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 3.0.1](https://img.shields.io/badge/Swift-3.0.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
@@ -23,10 +23,10 @@ let package = Package(
 
 You can import LibC like following code.
 ```:Swift
-import LibC
+import CLibrary
 ```
 
-and You can use this library only add `import LibC` to first line of source.
+and You can use this library only add `import CLibrary` to first line of source.
 You need not to write codes like following. 
 
 ```:Swift
