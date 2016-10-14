@@ -1,6 +1,6 @@
 Swift CLibrary
 -----------
-[![Build Status](https://travis-ci.org/shotastage/SwiftLibC.svg?branch=master)](https://travis-ci.org/shotastage/SwiftLibC)
+[![Build Status](https://travis-ci.org/shotastage/SwiftCLibrary.svg?branch=master)](https://travis-ci.org/shotastage/SwiftCLibrary)
 [![Swift 3.0.1](https://img.shields.io/badge/Swift-3.0.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
