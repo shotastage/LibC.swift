@@ -29,7 +29,7 @@
     }
 #endif
 
-public func GetOSLibCtype() -> String {
+public func getOSLibCtype() -> String {
     return OSLIBTYPE
 }
 
