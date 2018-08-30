@@ -6,32 +6,5 @@
     @_exported import Glibc
 #elseif os(OSX)
     // Import Darwin on macOS
-    @_exported import Darwin
-#endif
-
-
-
-
-
-// Checking code for debug 
-// -------------------------------------------------------------------------
-#if DEBUG
-
-#if os(Linux)
-    public let OSLIBC_TYPE = "glibc"
-    public func printLinuxGlibC() {
-        system("echo Successed to import Glibc.")
-    }
-#elseif os(OSX)
-    public let OSLIBC_TYPE = "darwinc"
-    public func printmacOSlibC() {
-        system("echo Successed to import DarwinC.")
-    }
-#endif
-
-public func getOSLibCtype() -> String {
-    return OSLIBTYPE
-}
-
-
+    @_exported import Darwin.C
 #endif
