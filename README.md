@@ -1,7 +1,7 @@
 Swift CLibrary
 -----------
 [![Build Status](https://travis-ci.org/shotastage/SwiftCLibrary.svg?branch=master)](https://travis-ci.org/shotastage/SwiftCLibrary)
-[![Swift 3.0.2](https://img.shields.io/badge/Swift-3.0.2-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
@@ -26,7 +26,7 @@ You can import LibC like following code.
 import CLibrary
 ```
 
-and You can use this library only add `import CLibrary` to first line of source.
+and You can use this library only add `import clib` to first line of source.
 You need not to write codes like following. 
 
 ```:Swift
