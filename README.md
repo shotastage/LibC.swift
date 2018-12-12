@@ -16,14 +16,14 @@ import PackageDescription
 let package = Package(
     name: "Package Name",
     dependences: [
-    	.Package(url: "https://github.com/shotastage/SwiftLibC.git", versions: Version(0,0,1)...Version(1,0,0)),
+    	.package(url: "https://github.com/shotastage/SwiftCLibrary.git", from: "1.0.0"),
     ]
 )
 ```
 
 You can import LibC like following code.
 ```:Swift
-import CLibrary
+import clib
 ```
 
 and You can use this library only add `import clib` to first line of source.
