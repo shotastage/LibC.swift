@@ -1,4 +1,4 @@
-Swift CLibrary
+LibC.swift
 -----------
 [![Build Status](https://travis-ci.org/shotastage/SwiftCLibrary.svg?branch=master)](https://travis-ci.org/shotastage/SwiftCLibrary)
 [![Swift 4](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://developer.apple.com/swift/)
