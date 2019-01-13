@@ -1,6 +1,7 @@
 // Swift CLib
-// Copyright (c) 2016-2018 Shota Shimazu
+// Copyright (c) 2016-2019 Shota Shimazu
 // This program is freely distributed under the MIT, see LICENSE for detail.
+
 
 #if os(Linux)
     // Import Glibc on Linux
