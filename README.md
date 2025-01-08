@@ -1,7 +1,7 @@
 LibC.swift
 -----------
 [![Build Status](https://travis-ci.org/shotastage/LibC.swift.svg?branch=master)](https://travis-ci.org/shotastage/LibC.swift)
-[![Swift 5](https://img.shields.io/badge/Swift-5-orange.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 6](https://img.shields.io/badge/Swift-6-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 
