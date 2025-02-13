@@ -1,3 +1,36 @@
+# macOS
 .DS_Store
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcscmblueprint
+*.xcodeproj
+*.xcuserstate
+
+# Swift Package Manager
 /.build
 /Packages
+.swiftpm/xcode/package.xcworkspace
+
+# SwiftPM binary artifacts
+*.xcframework
+
+# Generated files
+DerivedData/
+.idea/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
